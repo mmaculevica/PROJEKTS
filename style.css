@@ -18,8 +18,13 @@ body {
   text-align: right;
 }
 
-#fons img {
+#fons img:first-of-type {
   margin-left: 10px;
+}
+
+#fons img:last-of-type {
+  float: right;
+  margin-right: 10px;
 }
 
 h1 {
