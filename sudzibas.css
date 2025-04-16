@@ -8,7 +8,6 @@ body {
   margin: 0; /* Remove margin to prevent body from adding space */
   height: 100%; /* Ensures body takes full height */
 }
-
 #fons {
   background-color: #F5DDB5;
   height: 600px;
@@ -19,7 +18,7 @@ body {
   display: flex;
 }
 #fons2 {
-  background-color: #DFBF9A;
+  background-image:url("image.png");
   width: 60%;
   height: 430px;
   padding: 30px;
@@ -48,21 +47,20 @@ color: white;
 #teksts {
   font-family: "Koulen", bolder;
   box-shadow: 40px;
-  background-color:#8D785F ;
+  background-color:#DFBF9A ;
   color: white;
   text-align: center;
-  width: 50%;
+  width: 84%;
+  margin: auto;
 }
 
 .koulen-regular {
   font-family: "Koulen", sans-serif;
   font-weight: 400;
-  font-style: normal;
-  color: white;
-  font-size: 24px;
+ 
 
 
-  
+
 }
 li{
   display: inline;
@@ -70,7 +68,8 @@ li{
   margin-right: 30px;
 }
 #photo h1{
-  background-color:#8D785F ;
+  background-color:#DFBF9A ;
+  
 }
 #nav{
   background-image: url("nav.png");
