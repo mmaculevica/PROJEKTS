@@ -19,7 +19,7 @@ body {
 }
 #fons2 {
   background-image:url("image.png");
-  width: 60%;
+  width: 90%;
   height: 430px;
   padding: 30px;
   margin:auto;
@@ -45,8 +45,7 @@ color: white;
 }
 
 #teksts {
-  font-family: "Koulen", bolder;
-  box-shadow: 40px;
+  font-family: "Koulen",  bolder;
   background-color:#DFBF9A ;
   color: white;
   text-align: center;
@@ -74,6 +73,7 @@ li{
 #nav{
   background-image: url("nav.png");
   height: 191px;
+
 }
 #navigācija{
   text-align: right;
@@ -81,4 +81,17 @@ li{
   margin-right: 100px;
   color: white;
    font-family: "Koulen", sans-serif;
+}
+#sudziba
+{
+  border-style: solid;
+  border-width: 50px 80px;
+  background-color: #DFBF9A;
+  border-color: #F5DDB5;
+  font-size: 27px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: "Koulen", sans-serif;
+  margin-top: 100px;
 }
