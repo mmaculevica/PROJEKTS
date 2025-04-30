@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 #fons2 {
-  background-image:url("image.png");
+  background-image:url("dzirnas.png");
   width: 90%;
   height: 430px;
   padding: 30px;
@@ -53,7 +53,7 @@ body {
 .koulen-regular {
   font-family: "Koulen", sans-serif;
   font-weight: 400;
- 
+
 
 
 
@@ -65,7 +65,7 @@ li{
 }
 #photo h1{
   background-color:#DFBF9A ;
-  
+
 }
 #nav{
   background-image: url("nav.png");

@@ -8,24 +8,28 @@ body {
   margin: 0; /* Remove margin to prevent body from adding space */
   height: 100%; /* Ensures body takes full height */
 }
+
 #fons {
   background-color: #F5DDB5;
   height: 600px;
   width: 90%;
   padding: 30px;
-  margin-left: 90px;
-  text-align: right;
+  margin: auto;
+  text-align: middle;
   display: flex;
 }
 #fons2 {
-  background-image:url("image.png");
-  width: 90%;
+  background-color: #DFBF9A;
+  width: 60%;
   height: 430px;
   padding: 30px;
   margin:auto;
   text-align: right;
 }
-
+#fons2 p{
+  font-size: 16px;
+  font-family: "Koulen", sans-serif;
+color: white;
 }
 #photo{
   display: flex;
@@ -42,18 +46,20 @@ body {
 }
 
 #teksts {
-  font-family: "Koulen",  bolder;
-  background-color:#DFBF9A ;
+  font-family: "Koulen", bolder;
+  box-shadow: 40px;
+  background-color:#8D785F ;
   color: white;
   text-align: center;
-  width: 84%;
-  margin: auto;
+  width: 50%;
 }
 
 .koulen-regular {
   font-family: "Koulen", sans-serif;
   font-weight: 400;
- 
+  font-style: normal;
+  color: white;
+  font-size: 24px;
 
 
 
@@ -64,13 +70,11 @@ li{
   margin-right: 30px;
 }
 #photo h1{
-  background-color:#DFBF9A ;
-  
+  background-color:#8D785F ;
 }
 #nav{
   background-image: url("nav.png");
   height: 191px;
-
 }
 #navigācija{
   text-align: right;
@@ -79,16 +83,24 @@ li{
   color: white;
    font-family: "Koulen", sans-serif;
 }
-#sudziba
-{
-  border-style: solid;
-  border-width: 50px 80px;
-  background-color: #DFBF9A;
-  border-color: #F5DDB5;
-  font-size: 27px;
-  width: 50%;
-  margin: auto;
-  text-align: center;
-  font-family: "Koulen", sans-serif;
-  margin-top: 100px;
+#galerija{
+text-align: center;
+  margin-top: -46px;;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.gal-1{
+margin-right: 20px;
+}
+  #container2{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+    border: 1px ;
+  }
+  .gal-2{
+    margin-right: 20px
+  }
