@@ -9,7 +9,7 @@ body {
   height: 100%; /* Ensures body takes full height */
 }
 #fons {
-  background-color: #F5DDB5;
+  background-color: #DFBF9A;
   height: 600px;
   width: 90%;
   padding: 30px;
@@ -44,10 +44,13 @@ body {
 #teksts {
   font-family: "Koulen",  bolder;
   background-color:#DFBF9A ;
-  color: white;
+  
   text-align: center;
   width: 84%;
   margin: auto;
+}
+#teksts h1{
+  color: white;
 }
 
 .koulen-regular {
@@ -60,8 +63,12 @@ body {
 }
 li{
   display: inline;
-  text-decoration: none;
+  
   margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
 }
 #photo h1{
   background-color:#DFBF9A ;
@@ -81,14 +88,20 @@ li{
 }
 #sudziba
 {
-  border-style: solid;
-  border-width: 50px 80px;
-  background-color: #DFBF9A;
-  border-color: #F5DDB5;
+
+  background-color: #8D785F;
+ 
   font-size: 27px;
   width: 50%;
   margin: auto;
   text-align: center;
   font-family: "Koulen", sans-serif;
   margin-top: 100px;
+}
+h4{
+  background-color: #DFBF9A;
+}
+#flexlogin{
+  display:flex;
+  flex-direction: row;
 }

@@ -92,3 +92,6 @@ li{
   font-family: "Koulen", sans-serif;
   margin-top: 100px;
 }
+a{
+  text-decoration: none;
+  color: white;

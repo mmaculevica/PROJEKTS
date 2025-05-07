@@ -13,33 +13,52 @@
   <body>
     <div id="nav">
          <ul id="navigācija">
-           <li>STARTS</li>
-           <li>KONTAKTI</li>
-           <li>IERAKSTĪTIES</li>
-           <li>GALERIJA</li>
+           <li><a href="index.html">STARTS</a></li>
+           <li><a href="sudzibas.html">KONTAKTI</a></li>
+           <li><a href="login.html">IERAKSTĪTIES</a></li>  
+             <li><a href="galerija.html">GALERIJA</a></li>
            <li>PAR MUMS</li>
          </ul>
     </div>
+    <div id="flexlogin">
+      
       <div id="teksts">
         <h1>IERAKSTITIES</h1>
         <div id="fons2">
           <div id="sudziba">
-            Riga, Lacplesa iela 106, k-1, LV-1003<br>
-tel nr.+371 26017098<br>
-E-pasts: MDANCEprieks@gmail.com
-
+            <h4>LOG IN</h4>
+ <input type="text" id="username" name="username" placeholder="Ievadīt e-pastu"><br>
+            <input type="password" id="password" name="password" placeholder="Ievadīt paroli">
+            <br>
+            <button type="submit" onclick="login()">LOG IN</button>
+            <br>
           </div>
-
-
+          
 
       </div>
     </div>
+    <div id="teksts">
+      <h1>PIESLEGTIES</h1>
+      <div id="fons2">
+        <div id="sudziba">
+          <h4>SIGN UP</h4>
+    <input type="text" id="username" name="username" placeholder="Ievadīt e-pastu"><br>
+          <input type="password" id="password" name="password" placeholder="Ievadīt paroli">
+          <br>
+          <button type="submit" onclick="signup()">SIGN UP</button>
+   
+          <br>
+        </div>
 
 
+    </div>
+    </div>
 
 
+      </div>
 
 
+<script src="script.js"></script>
   </body>
 
   </html>
